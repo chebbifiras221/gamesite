@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #8fbf7d; /* Game Boy color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #fff; /* White text */
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  canvas {
+    border: 8px solid #465c57; /* Dark border */
+    display: block;
+    margin: 20px auto;
+    background-color: #465c57; /* Dark background */
+  }
+  
+  p {
+    color: #fff; /* White text */
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  #score, #highScore {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  #score {
+    color: #f5a623; /* Yellow text for score */
+  }
+  
+  #highScore {
+    color: #e74c3c; /* Red text for high score */
+  }
+  

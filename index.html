@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #2c3e50; /* Dark blue background */
+      color: #ecf0f1; /* Light text */
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-top: 50px;
+    }
+
+    #games {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+
+    .game-button {
+      background-color: #3498db; /* Blue button color */
+      color: #ecf0f1; /* Light text on the button */
+      padding: 20px;
+      margin: 10px;
+      text-decoration: none;
+      font-size: 1.5em;
+      border-radius: 10px;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+
+    .game-button:hover {
+      background-color: #2980b9; /* Darker blue on hover */
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Game Hub!</h1>
+  <div id="games">
+    <a href="SnakeIndex.html" class="game-button">Snake Game</a>
+    <a href="dinoIndex.html" class="game-button">Dino Game</a>
+    <a href="BreakoutIndex.html" class="game-button">Brick Breaker</a>
+    <!-- Add more game buttons here if needed -->
+  </div>
+</body>
+</html>

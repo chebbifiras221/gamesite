@@ -1,0 +1,36 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #8bcca1;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #2a5d67;
+}
+
+#board {
+    background-color: #c2e3e6;
+    border-bottom: 1px solid black;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.game-over-message {
+    color: #ff0033;
+    font-size: 24px;
+}
+
+.restart-button {
+    background-color: #ffcc00;
+    color: #2a5d67;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}

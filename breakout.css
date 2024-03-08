@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: #8f8f8f; /* Game Boy-like background color */
+    font-family: 'Press Start 2P', cursive; /* Use a pixelated font for a retro feel */
+    color: #fff; /* Set text color to white */
+}
+
+#board {
+    background-color: #6b6b6b; /* Dark gray background for the game board */
+    border: 5px solid #4b4b4b; /* Border color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow to the board */
+}
+
+#paddle {
+    background-color: #3498db; /* Blue color for the paddle */
+}
+
+#ball {
+    background-color: #e74c3c; /* Red color for the ball */
+}
+
+.brick {
+    background-color: #2ecc71; /* Green color for the bricks */
+}
+
+/* Add a Game Boy-like button appearance for the restart message */
+button {
+    background-color: #4b4b4b;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the score text */
+#score {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
